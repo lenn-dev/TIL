@@ -81,7 +81,7 @@
 - <img width="336" alt="Screenshot 2024-03-12 at 11 46 16 AM" src="https://github.com/lenn-dev/TIL/assets/37726487/bef4c654-af07-42a0-8b19-39f75c605ce5">
 
 4. 정수형과 문자형의 사용 예 (중요★★★)
-   
+ ```  
 #include <stdio.h>
 void main() // main 함수는 어떤 값을 돌려줄 필요가 없음 {
 char ch;
@@ -91,24 +91,29 @@ printf(“\nch = %d\n”, ch); // %d는 십진수 출력을 의미 printf(“in 
 ch = in = 100;
 printf(“\nch = %c\n”, ch); // %c는 문자 출력을 의미 printf(“in = %c\n”, in);
 }
+```
 실행결과 ch = 65 in = 65
 ch = d in = d
+```
 #include <stdio.h> void main()
 {
 long int num1, num2;
 num1=32767L+1; // L은 long(4바이트)을 의미, L을 안 붙이면 2바이트만 인식되므로 오류 num2=-32768L-1;
 printf(“\num1= %ld ”,num1); // %ld는 long형이고, 십진수로 출력하라는 의미 printf(“\num2= %ld ”,num2);
 }
+```
 실행결과: num1= 32768 num2= -32769
-#include <stdio.h> void main()
-{
 L을 안 붙였을 경우의 실행결과:
 num1= -32768 (원하는 값이 안나옴 → 오류)
 num2= 32767 (원하는 값이 안나옴 → 오류)
+```
+#include <stdio.h> void main()
+{
 int i, sum; // sum=0; 이라고 초기화 하는 부분이 없으므로 메모리에 원래 있던 값이 셋팅 for(i = 1; i <= 10; i++)
 sum = sum + i;
 printf(“1부터 10까지의 합 = %d\n”, sum); // 결과는 메모리에 있는 값에 따라 달라짐
 }
+```
 실행결과:
 1부터 10까지의 합 = 4260155
 ♣ 초기화하지 않으면 메모리에 있던 값이 그대로 반영되므로 위 실행결과처럼 항상 4260155가
