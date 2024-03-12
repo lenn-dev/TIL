@@ -270,5 +270,81 @@ __조건부 컴파일 (중요★)__
 <img width="468" alt="Screenshot 2024-03-12 at 10 43 40 PM" src="https://github.com/lenn-dev/TIL/assets/37726487/7b535abe-090f-42cd-a2fc-536ce04c0737"></br></br>
 
 # 선택 제어문과 반복 제어문
+## 선택 제어문
+### 선택 제어문의 종류
+- #### if 문
+- 단순 if문
+
+<img width="393" alt="Screenshot 2024-03-12 at 10 48 13 PM" src="https://github.com/lenn-dev/TIL/assets/37726487/186d75d9-ef5c-4558-b02a-ae03f00d8494"></br></br>
+
+- If ~else 문
+
+<img width="392" alt="Screenshot 2024-03-12 at 10 49 33 PM" src="https://github.com/lenn-dev/TIL/assets/37726487/b036fa16-7aa7-4de8-9411-593023fd32e9"></br></br>
+
+- 다중 If ~else 문
+
+<img width="440" alt="Screenshot 2024-03-12 at 10 50 49 PM" src="https://github.com/lenn-dev/TIL/assets/37726487/f1e23c1f-f908-4878-9c34-8077e17e16f7"></br></br>
+
+- 다중 If ~else If ~else 문 - 순차적 수행
+
+<img width="419" alt="Screenshot 2024-03-12 at 10 51 56 PM" src="https://github.com/lenn-dev/TIL/assets/37726487/58b1906a-d869-4ea7-bce6-081cbce8e49b"></br></br>
+
+
+- #### switch ~ case 문
+- if else 문은 참/거짓의 값에 따른 순서가 달라지는데, switch 문은 다양한 case에 따라 달라짐
+
+<img width="487" alt="Screenshot 2024-03-12 at 10 52 55 PM" src="https://github.com/lenn-dev/TIL/assets/37726487/fff8ad70-dbaf-423b-8170-a7cb8e56fa4e"></br></br>
+
+<img width="476" alt="Screenshot 2024-03-12 at 10 53 36 PM" src="https://github.com/lenn-dev/TIL/assets/37726487/26402811-d27a-415a-9dc7-64d6846c86b4"></br></br>
+
+
+- #### goto 문 - (무조건 분기)label 붙인 곳으로 무조건 옮겨주는
+  
+<img width="446" alt="Screenshot 2024-03-12 at 10 54 42 PM" src="https://github.com/lenn-dev/TIL/assets/37726487/7b6d7e9b-cfb7-45cd-9f31-e48ef124b31f"></br></br>
+
+<img width="481" alt="Screenshot 2024-03-12 at 10 56 05 PM" src="https://github.com/lenn-dev/TIL/assets/37726487/ae6ca096-fa50-4b4e-99dd-bb791a15262e"></br></br>
+
+## 반복 제어문
+### 반복 제어문의 종류
+- #### for 문
+- for 문
+
+<img width="458" alt="Screenshot 2024-03-12 at 10 58 12 PM" src="https://github.com/lenn-dev/TIL/assets/37726487/2d0c6d28-66a3-49de-a449-40049fdb069b"></br></br>
+
+- 다중 for 문
+
+<img width="422" alt="Screenshot 2024-03-12 at 10 58 44 PM" src="https://github.com/lenn-dev/TIL/assets/37726487/c0a55cf4-b5dc-4199-8fd6-677e7ec11994"></br></br>
+
+- #### while 문
+- while 문
+
+<img width="449" alt="Screenshot 2024-03-12 at 10 59 24 PM" src="https://github.com/lenn-dev/TIL/assets/37726487/52405ccb-8f5b-4dd7-a8bb-d741b0533dd1"></br></br>
+
+- 다중 while 문
+
+<img width="461" alt="Screenshot 2024-03-12 at 10 59 36 PM" src="https://github.com/lenn-dev/TIL/assets/37726487/1f77f69b-6f93-4bf0-8d6d-b062d7c993d5"></br></br>
+
+- #### do ~ while 문
+
+<img width="408" alt="Screenshot 2024-03-12 at 11 01 31 PM" src="https://github.com/lenn-dev/TIL/assets/37726487/c97a837c-3ee4-4cf5-82c5-1f3ad1556781"></br></br>
+
+<img width="461" alt="Screenshot 2024-03-12 at 11 02 05 PM" src="https://github.com/lenn-dev/TIL/assets/37726487/f9fb34fe-fade-4e36-9114-35651cce4b4c"></br></br>
+
+## 기타 제어문
+- #### break 문
+- break 문은 반복 명령의 실행 도중에 강제적으로 반복문을 빠져 나오는데 사용
+- for 루프, while 루프, do~while 루프, switch 블록 등을 강제로 종료시키고자 할 때 사용
+- break문은 자신이 포함된 반복문만 빠져 나옴
+
+<img width="413" alt="Screenshot 2024-03-12 at 11 03 25 PM" src="https://github.com/lenn-dev/TIL/assets/37726487/382454dc-f9d5-4098-b511-c36955289333"></br></br>
+
+- #### continue 문
+- continue 문은 루프 실행 중에 루프를 다시 실행하고자 할 때 사용
+- switch~case 문에서는 사용하지 않고, 반복구조에만 국한되어 사용
+- continue 문은 그 루프의 선두로 제어를 옮겨 다음 반복을 실행
+
+<img width="468" alt="Screenshot 2024-03-12 at 11 04 59 PM" src="https://github.com/lenn-dev/TIL/assets/37726487/5c5381a6-3313-45d5-8ae9-6bd2499d1b74"></br></br>
+
+  
 # 함수와 기억 클래스 1
 
