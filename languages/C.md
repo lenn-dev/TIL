@@ -29,12 +29,12 @@
 ### 1. 상수 (중요★★)
 - 정수형 상수
   
-- <img width="393" alt="Screenshot 2024-03-12 at 11 32 34 AM" src="https://github.com/lenn-dev/TIL/assets/37726487/3b553a5b-a584-463a-8694-301b66813926"></br>
+ <img width="393" alt="Screenshot 2024-03-12 at 11 32 34 AM" src="https://github.com/lenn-dev/TIL/assets/37726487/3b553a5b-a584-463a-8694-301b66813926"></br>
 
 
  - 실수형 상수: 소수점을 갖는 수
 
-- <img width="451" alt="Screenshot 2024-03-12 at 11 34 20 AM" src="https://github.com/lenn-dev/TIL/assets/37726487/7cbda15b-648b-4ad8-ad7d-454bb6035a8f"></br>
+ <img width="451" alt="Screenshot 2024-03-12 at 11 34 20 AM" src="https://github.com/lenn-dev/TIL/assets/37726487/7cbda15b-648b-4ad8-ad7d-454bb6035a8f"></br>
 
 
 - 문자형 상수(단일 인용부호로 묶음)
@@ -43,12 +43,12 @@
 ☞ ‘Y’ => ASCII 값 89, ‘y’ => ASCII 값 121
 ☞ ‘Z’ => ASCII 값 90, ‘z’ => ASCII 값 122
 
-- <img width="400" alt="Screenshot 2024-03-12 at 11 35 27 AM" src="https://github.com/lenn-dev/TIL/assets/37726487/fdf3750c-1afd-402c-aec2-e5b378e9089e"></br>
+ <img width="400" alt="Screenshot 2024-03-12 at 11 35 27 AM" src="https://github.com/lenn-dev/TIL/assets/37726487/fdf3750c-1afd-402c-aec2-e5b378e9089e"></br>
 
 
 - 문자열 상수(이중 인용부호로 묶음)
 
-- <img width="432" alt="Screenshot 2024-03-12 at 11 36 23 AM" src="https://github.com/lenn-dev/TIL/assets/37726487/6f6472a9-92cd-4e33-a3a4-dc70aab4a881"></br>
+ <img width="432" alt="Screenshot 2024-03-12 at 11 36 23 AM" src="https://github.com/lenn-dev/TIL/assets/37726487/6f6472a9-92cd-4e33-a3a4-dc70aab4a881"></br>
 
 
 ### 2. 변수의 특징과 정의 규칙 (중요★★★)
@@ -60,38 +60,32 @@
 
 ### 3. 자료형의 종류 (중요★)
 
-- <img width="434" alt="Screenshot 2024-03-12 at 11 41 22 AM" src="https://github.com/lenn-dev/TIL/assets/37726487/fc030744-f2cb-4970-b24d-a20af8860be0"></br>
+ <img width="434" alt="Screenshot 2024-03-12 at 11 41 22 AM" src="https://github.com/lenn-dev/TIL/assets/37726487/fc030744-f2cb-4970-b24d-a20af8860be0"></br>
 
-- 기본형
-☞ 정수형: int, short, long, unsigned ☞ 실수형: float, double
-☞ 문자형: char, unsigned char
-☞ 열거형: enurn
-☞ void형: void
-- 확장형: 배열형, 함수형, 포인터형, 구조체형
 
 ### 4. 자료형의 범위 (중요★★★)
-- 정수형의 범위
-- <img width="432" alt="Screenshot 2024-03-12 at 11 43 10 AM" src="https://github.com/lenn-dev/TIL/assets/37726487/c32c40b9-d90a-440d-95c6-317be5910a37">
+- #### 정수형의 범위
+ <img width="432" alt="Screenshot 2024-03-12 at 11 43 10 AM" src="https://github.com/lenn-dev/TIL/assets/37726487/c32c40b9-d90a-440d-95c6-317be5910a37">
 
-☞ 단, 32비트의 경우 int와 unsigned int는 각각 4바이트
-♣ 범위는 short int 와 int 만 알아둘 것, 나머지 것까지 외우면 머리 나빠집니다..^^
-short int __-32768 ~ 32767__
-int __-2147483648~ 2147483647__
+- 단, 32비트의 경우 int와 unsigned int는 각각 4바이트
+- 범위는 short int 와 int 만 알아둘 것, 나머지 것까지 외우면 머리 나빠집니다..^^
+- short int __-32768 ~ 32767__
+- int __-2147483648~ 2147483647__
 
-- 실수형의 범위
-- <img width="432" alt="Screenshot 2024-03-12 at 11 45 34 AM" src="https://github.com/lenn-dev/TIL/assets/37726487/c3f80e36-9c56-4740-b556-80a89a7d72ed">
+- #### 실수형의 범위
+ <img width="380" alt="Screenshot 2024-03-12 at 11 45 34 AM" src="https://github.com/lenn-dev/TIL/assets/37726487/c3f80e36-9c56-4740-b556-80a89a7d72ed">
 
-- 문자형의 범위
-- <img width="432" alt="Screenshot 2024-03-12 at 11 46 16 AM" src="https://github.com/lenn-dev/TIL/assets/37726487/bef4c654-af07-42a0-8b19-39f75c605ce5">
+- #### 문자형의 범위
+ <img width="380" alt="Screenshot 2024-03-12 at 11 46 16 AM" src="https://github.com/lenn-dev/TIL/assets/37726487/bef4c654-af07-42a0-8b19-39f75c605ce5">
 
 
 #### 4a. 정수형과 문자형의 사용 예 (중요★★★)
 
-<img width="500" alt="Screenshot 2024-03-12 at 2 34 27 PM" src="https://github.com/lenn-dev/TIL/assets/37726487/c75e8964-6ac7-4cf1-924d-b6faf8c9c39a"></br>
+<img width="400" alt="Screenshot 2024-03-12 at 2 34 27 PM" src="https://github.com/lenn-dev/TIL/assets/37726487/c75e8964-6ac7-4cf1-924d-b6faf8c9c39a"></br>
 
-<img width="500" alt="Screenshot 2024-03-12 at 2 28 18 PM" src="https://github.com/lenn-dev/TIL/assets/37726487/89c93318-8d84-4d60-ae39-3f803ba5641e"></br>
+<img width="400" alt="Screenshot 2024-03-12 at 2 28 18 PM" src="https://github.com/lenn-dev/TIL/assets/37726487/89c93318-8d84-4d60-ae39-3f803ba5641e"></br>
 
-<img width="500" alt="Screenshot 2024-03-12 at 2 30 56 PM" src="https://github.com/lenn-dev/TIL/assets/37726487/52f435ef-6997-4b7d-8db4-57c39ebc48f9"></br>
+<img width="400" alt="Screenshot 2024-03-12 at 2 30 56 PM" src="https://github.com/lenn-dev/TIL/assets/37726487/52f435ef-6997-4b7d-8db4-57c39ebc48f9"></br>
 
 
 ## 선행처리기
@@ -99,7 +93,8 @@ int __-2147483648~ 2147483647__
 ### 1. 선행처리기 (중요★★)
 - 컴파일러에 앞서 __미리 처리__ 되는 처리기
 - 사용자가 정의한 각종 내용을 먼저 처리
-- 반드시 #로 시작하고 문장의 끝에는 세미콜론(;)을 안 붙임 - 첫 칸부터 시작하고 한 줄에 하나의 명령
+- 반드시 #로 시작하고 문장의 끝에는 세미콜론(;)을 안 붙임
+- 첫 칸부터 시작하고 한 줄에 하나의 명령
 
 
 ### 2. 선행처리기 사용시 주의할 점 (중요★★)
@@ -131,8 +126,8 @@ __#include__
 ```
 
 #### 3b. 매크로 정의 (중요★★) - 단순치환, 상수,함수 정의할 때 많이 사용
- __#define__ 
-#define은 매크로를 정의할 때 사용
+__#define__ 
+- #define은 매크로를 정의할 때 사용
 - 매크로(macro)
   - 선행처리기 #define을 사용하여 단순 치환되는 자료
   - 프로그램 작성시에 명령이나 수식 또는 상수값이 자주 사용될 때 이들을 대표하는 이름을 붙여 사용하는 대상
@@ -179,9 +174,101 @@ __조건부 컴파일 (중요★)__
     
 <img width="491" alt="Screenshot 2024-03-12 at 9 18 33 PM" src="https://github.com/lenn-dev/TIL/assets/37726487/cbce017f-0acd-452c-a375-f2cfb66cec7d">
 
-
-
-
 # 입출력 함수와 연산자 1
+## 표준 입출력 함수
+#### 함수란? 특정한 작업(기능)을 수행하도록 설계된 독립적 프로그램
+#### C언어에서의 함수 
+- 표준함수 : C언어 자체에서 제공하는 함수
+- 사용자 정의함수 : 사용자가 정의하여 사용하는 함수
+#### 표준 입출력 함수의 종류
+
+<img width="400" alt="Screenshot 2024-03-12 at 10 12 18 PM" src="https://github.com/lenn-dev/TIL/assets/37726487/3607e62e-4c4f-4ad6-96f5-0eebba74a09f"></br></br>
+
+<img width="479" alt="Screenshot 2024-03-12 at 10 13 33 PM" src="https://github.com/lenn-dev/TIL/assets/37726487/e03fa1f2-1be8-4f3b-b0f2-f0612277a94c"></br></br>
+
+<img width="466" alt="Screenshot 2024-03-12 at 10 14 03 PM" src="https://github.com/lenn-dev/TIL/assets/37726487/650ecff4-f991-46dc-be17-2cf34b0c9e80"></br></br>
+
+<img width="456" alt="Screenshot 2024-03-12 at 10 15 02 PM" src="https://github.com/lenn-dev/TIL/assets/37726487/5e0aa0f0-5ea4-4181-ba11-2381b0055853"></br></br>
+
+<img width="422" alt="Screenshot 2024-03-12 at 10 15 40 PM" src="https://github.com/lenn-dev/TIL/assets/37726487/f82c9799-c95f-422e-8b40-1676c68f5369"></br></br>
+
+<img width="581" alt="Screenshot 2024-03-12 at 10 16 04 PM" src="https://github.com/lenn-dev/TIL/assets/37726487/1eb4185c-02aa-4594-bad5-b7972c8b4e36"></br></br>
+
+<img width="423" alt="Screenshot 2024-03-12 at 10 17 25 PM" src="https://github.com/lenn-dev/TIL/assets/37726487/94344b8c-a489-4301-8593-830827e12a1c"></br></br>
+
+<img width="434" alt="Screenshot 2024-03-12 at 10 17 41 PM" src="https://github.com/lenn-dev/TIL/assets/37726487/4dabcc17-e92e-471b-9a7b-1b9feca61a41"></br></br>
+
+<img width="535" alt="Screenshot 2024-03-12 at 10 18 11 PM" src="https://github.com/lenn-dev/TIL/assets/37726487/723dcb40-6006-4718-8469-6194248842c2"></br></br>
+
+<img width="483" alt="Screenshot 2024-03-12 at 10 18 30 PM" src="https://github.com/lenn-dev/TIL/assets/37726487/db797bef-1a92-4cab-909d-5cbfdddaddba"></br></br>
+
+
 # 입출력 함수와 연산자 2
+## 연산자
+- 연산자(operator) : 임의의 자료에 대해 각종 연산을 수행하도록 하는 기호
+  
+<img width="366" alt="Screenshot 2024-03-12 at 10 22 30 PM" src="https://github.com/lenn-dev/TIL/assets/37726487/9fddcfce-ad4e-4b12-b55b-a84ed9241f91"></br></br>
+
+### 산술 연산자
+- 피 연산자에 대해 사칙연산을 포함한 각종 산술연산을 수행하는 연산자
+- 
+<img width="396" alt="Screenshot 2024-03-12 at 10 24 13 PM" src="https://github.com/lenn-dev/TIL/assets/37726487/fb01bd35-b87b-4ece-a793-ba3efafff2ed"></br></br>
+
+<img width="416" alt="Screenshot 2024-03-12 at 10 25 35 PM" src="https://github.com/lenn-dev/TIL/assets/37726487/49e157a7-f957-4021-87c5-801983482555"></br></br>
+
+<img width="498" alt="Screenshot 2024-03-12 at 10 25 58 PM" src="https://github.com/lenn-dev/TIL/assets/37726487/2393bdf7-8603-465c-8c53-e15d88626f77"></br></br>
+
+
+### 관계 연산자
+- 피 연산자에 대한 대,소 관계를 비교하는 연산자
+- 
+<img width="423" alt="Screenshot 2024-03-12 at 10 26 39 PM" src="https://github.com/lenn-dev/TIL/assets/37726487/6239f2eb-7f3c-431a-b9ad-23cc455f1dcb"></br></br>
+
+<img width="457" alt="Screenshot 2024-03-12 at 10 27 54 PM" src="https://github.com/lenn-dev/TIL/assets/37726487/b3b21edf-9c53-43e5-80db-cc0c0e4f3717"></br></br>
+
+
+### 논리 연산자
+- 피 연산자에 대해 논리 연산을 수행하는 연산자
+
+<img width="426" alt="Screenshot 2024-03-12 at 10 28 28 PM" src="https://github.com/lenn-dev/TIL/assets/37726487/1f269f1c-dcaf-4d90-92ad-cf33f3e74d89"></br></br>
+
+<img width="443" alt="Screenshot 2024-03-12 at 10 32 07 PM" src="https://github.com/lenn-dev/TIL/assets/37726487/e7b7d956-7ea6-4c5f-b8e6-0c8d101d45b2"></br></br>
+
+### 대입 연산자
+- 연산자의 오른쪽을 왼쪽에 대입하는데 사용
+  
+<img width="446" alt="Screenshot 2024-03-12 at 10 32 52 PM" src="https://github.com/lenn-dev/TIL/assets/37726487/e44f26a6-fabf-4210-8481-bda463c82f61"></br></br>
+
+<img width="442" alt="Screenshot 2024-03-12 at 10 33 13 PM" src="https://github.com/lenn-dev/TIL/assets/37726487/9a412625-a2c0-4fd6-8e60-bedfc6f83647"></br></br>
+
+### 조건 연산자 (js 삼항연산자와 비슷)
+- 주어진 조건의 만족 여부에 따라 지정된 수식을 수행하는 연산자
+<img width="407" alt="Screenshot 2024-03-12 at 10 34 22 PM" src="https://github.com/lenn-dev/TIL/assets/37726487/0895aa33-8cc9-408c-8bb9-fb0a46881889"></br></br>
+
+<img width="422" alt="Screenshot 2024-03-12 at 10 34 35 PM" src="https://github.com/lenn-dev/TIL/assets/37726487/f0c9b6c7-9065-49a5-9f33-c0668575f54f"></br></br>
+
+### 비트 연산자
+- 수치에 대해 bit 단위의 연산을 수행하는 연산자
+<img width="436" alt="Screenshot 2024-03-12 at 10 35 50 PM" src="https://github.com/lenn-dev/TIL/assets/37726487/751c60a5-d747-4378-ab6f-cc697191c444"></br></br>
+
+<img width="609" alt="Screenshot 2024-03-12 at 10 37 10 PM" src="https://github.com/lenn-dev/TIL/assets/37726487/25a5fa97-c675-4fcc-80c9-610d19d59aca"></br></br>
+
+### 기타 연산자
+<img width="453" alt="Screenshot 2024-03-12 at 10 37 36 PM" src="https://github.com/lenn-dev/TIL/assets/37726487/73fa062f-6944-45f3-853c-5f9bf396c89d"></br></br>
+
+<img width="417" alt="Screenshot 2024-03-12 at 10 37 51 PM" src="https://github.com/lenn-dev/TIL/assets/37726487/e2881c3b-b883-4105-9a64-bc402a1577c7"></br></br>
+
+<img width="468" alt="Screenshot 2024-03-12 at 10 38 05 PM" src="https://github.com/lenn-dev/TIL/assets/37726487/31436837-cfd0-40dc-a5b3-9aaf4755ce56"></br></br>
+
+<img width="449" alt="Screenshot 2024-03-12 at 10 38 26 PM" src="https://github.com/lenn-dev/TIL/assets/37726487/16075a19-a10b-448b-97a0-f4c6f53d7c5a"></br></br>
+
+### 연산자 우선순위
+<img width="427" alt="Screenshot 2024-03-12 at 10 40 02 PM" src="https://github.com/lenn-dev/TIL/assets/37726487/0e94c577-8732-44ea-8303-8cb941dc8aa4"></br></br>
+
+<img width="391" alt="Screenshot 2024-03-12 at 10 43 33 PM" src="https://github.com/lenn-dev/TIL/assets/37726487/cb4804a8-1b3a-4182-bc54-6581ebca6205"></br></br>
+
+<img width="468" alt="Screenshot 2024-03-12 at 10 43 40 PM" src="https://github.com/lenn-dev/TIL/assets/37726487/7b535abe-090f-42cd-a2fc-536ce04c0737"></br></br>
+
 # 선택 제어문과 반복 제어문
+# 함수와 기억 클래스 1
+
