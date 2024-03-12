@@ -347,4 +347,91 @@ __조건부 컴파일 (중요★)__
 
   
 # 함수와 기억 클래스 1
+## 함수의 개념
+- 함수
+  - 함수란 특정한 작업(기능)을 수행하도록 설계된 독립적인 프로그램
+  - 이러한 함수들이 정해진 순서에 따라 실행됨으로써 프로그램의 기능을 수행
+- C 프로그램은 함수들로 구성
+  - 전체의 실행 내용을 몇 개의 모듈(module)로 분류
+  - 각각의 모듈에 해당하는 내용을 함수로 작성
+  - 실행순서에 따라 그 함수들을 차례로 호출하여 실행
+- 함수의 특성
+  - 함수들은 서로를 자유로이 호출 가능
+  - 모든 함수는 서로 독립적
+- 함수의 장점
+  - 프로그램의 수정이 용이하다.
+  - 함수 재사용으로 코드 중복을 최소화한다.
+  - 프로그램의 기능을 한 눈에 파악할 수 있게 해줌으로써 유지관리가 쉽다
+ 
+  <img width="439" alt="Screenshot 2024-03-12 at 11 11 19 PM" src="https://github.com/lenn-dev/TIL/assets/37726487/8172a8d8-a4c3-4c94-9c43-672bdf322dbb"></br></br>
 
+
+<img width="439" alt="Screenshot 2024-03-12 at 11 11 44 PM" src="https://github.com/lenn-dev/TIL/assets/37726487/e317a693-0e5c-4cb8-952d-77691347dd94"></br></br>
+
+
+
+## 표준 함수
+
+- C언어에서의 함수
+  - 표준함수 : C언어 자체에서 제공하는 함수
+  - 사용자 정의함수 : 사용자가 정의하여 사용하는 함수
+- 표준 함수
+  - 표준함수의 __원형__ 은 __헤더파일에__ 정의
+  - 표준함수의 __실체__ 는 __라이브러리 파일에__ 수록
+  - 표준함수를 사용하려면 원형이 선언되어 있는 헤더파일을 #include 시켜 주어야 한다.
+  
+<img width="433" alt="Screenshot 2024-03-12 at 11 13 43 PM" src="https://github.com/lenn-dev/TIL/assets/37726487/00f16f4d-70f2-47e7-a582-8dd6721189b3"></br></br>
+
+<img width="472" alt="Screenshot 2024-03-12 at 11 14 24 PM" src="https://github.com/lenn-dev/TIL/assets/37726487/804da21c-2da2-445b-ba84-33906e5176ec"></br></br>
+
+
+
+## 사용자 정의 함수 - 사용자가 만들어 사용하는 함수
+- C 프로그램에서의 함수
+  - main( )함수 안에 표준함수를 사용하는 형태
+  - 그러나 동일 블록 내의 프로그램 길이가 길어지면 전체 프로그램은 복잡해지고 이해하기가 어려워진다.
+  - 따라서 전체 프로그램을 짧은 길이의 단위 프로그램으로 나누어 정의함으로써 프로그램의 작성과 이해를 쉽게 할 필요가 있다.
+- 사용자 정의 함수
+  - 사용자가 단위 프로그램을 함수로 정의하여 사용
+
+<img width="390" alt="Screenshot 2024-03-12 at 11 16 23 PM" src="https://github.com/lenn-dev/TIL/assets/37726487/c6e06992-9209-41de-851d-a517b3240d15"></br></br>
+
+<img width="463" alt="Screenshot 2024-03-12 at 11 18 47 PM" src="https://github.com/lenn-dev/TIL/assets/37726487/b10f1cbc-80ab-47dd-9782-1c43cb9d0724"></br></br>
+
+<img width="470" alt="Screenshot 2024-03-12 at 11 19 07 PM" src="https://github.com/lenn-dev/TIL/assets/37726487/3ec3a820-2e84-4015-8bd3-d06adbe71714"></br></br>
+
+<img width="425" alt="Screenshot 2024-03-12 at 11 19 20 PM" src="https://github.com/lenn-dev/TIL/assets/37726487/4508d163-52c0-4556-9064-f567e12873b6"></br></br>
+
+<img width="458" alt="Screenshot 2024-03-12 at 11 20 29 PM" src="https://github.com/lenn-dev/TIL/assets/37726487/3731efd7-e37e-4243-b2a4-93ed192f07a3"></br></br>
+
+<img width="409" alt="Screenshot 2024-03-12 at 11 17 15 PM" src="https://github.com/lenn-dev/TIL/assets/37726487/cdcf4b04-fdd9-4aba-b450-13da58fa3164"></br></br>
+
+
+#### 함수의 원형 선언
+- 함수는 변수와 같이 사용되기 전에 미리 선언
+- 함수의 원형선언은 일반적으로 main( )함수 이전에 한다.
+- 원형 선언은 함수 정의부분의 헤더부분에 세미콜론(;)만 추가하면 된다.
+- 함수 원형선언은 함수와 관련된 3가지 성질을 선언
+  - 함수의 반환형
+  - 매개변수의 개수
+  - 매개변수의 자료형
+
+- compile 할 때 헤더부분을 먼저 체크하고, main 함수부터 번역하는데  사용자 정의함수(피호출함수)가 호출되었을 때 메인함수 전에 미리 선언되어 있어야 한다.
+
+<img width="472" alt="Screenshot 2024-03-12 at 11 21 58 PM" src="https://github.com/lenn-dev/TIL/assets/37726487/3edee2b1-0dd3-4839-a3d0-c7c124d31081"></br></br>
+
+<img width="468" alt="Screenshot 2024-03-12 at 11 22 11 PM" src="https://github.com/lenn-dev/TIL/assets/37726487/09dda9c6-99ef-4987-9880-a0effcf4529b"></br></br>
+
+
+#### 함수의 호출
+매개변수
+- 실 매개변수 : 함수를 호출하는 함수(호출함수)에 쓰이는 매개변수
+- 형식 매개변수 : 호출당하는 함수(피 호출함수)에 쓰이는 매개변수
+
+- 실 매개변수와 형식 매개변수 사이에는 자료형과 변수의 개수가 일치해야 한다.
+
+<img width="445" alt="Screenshot 2024-03-12 at 11 26 03 PM" src="https://github.com/lenn-dev/TIL/assets/37726487/2900a7ec-8a02-47c6-9377-a1c05cc9a38b"></br></br>
+
+ <img width="389" alt="Screenshot 2024-03-12 at 11 26 44 PM" src="https://github.com/lenn-dev/TIL/assets/37726487/5df2a934-8667-4152-b1fb-0402febf0f38"></br></br>
+ 
+<img width="430" alt="Screenshot 2024-03-12 at 11 27 27 PM" src="https://github.com/lenn-dev/TIL/assets/37726487/8a76fed1-9306-4529-a975-afbdbdce97e8"></br></br>
