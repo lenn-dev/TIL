@@ -180,24 +180,31 @@ __조건부 컴파일 (중요★)__
 #### C언어에서의 함수 
 - 표준함수 : C언어 자체에서 제공하는 함수
 - 사용자 정의함수 : 사용자가 정의하여 사용하는 함수
-#### 표준 입출력 함수의 종류
+#### 표준 입출력 함수의 종류(중요★)
 
 <img width="400" alt="Screenshot 2024-03-12 at 10 12 18 PM" src="https://github.com/lenn-dev/TIL/assets/37726487/3607e62e-4c4f-4ad6-96f5-0eebba74a09f"></br></br>
 
+#### printf() 함수의 사용 (중요★★)
 <img width="479" alt="Screenshot 2024-03-12 at 10 13 33 PM" src="https://github.com/lenn-dev/TIL/assets/37726487/e03fa1f2-1be8-4f3b-b0f2-f0612277a94c"></br></br>
 
+
+#### 출력양식 변환기호 (중요★★★)
 <img width="466" alt="Screenshot 2024-03-12 at 10 14 03 PM" src="https://github.com/lenn-dev/TIL/assets/37726487/650ecff4-f991-46dc-be17-2cf34b0c9e80"></br></br>
 
 <img width="456" alt="Screenshot 2024-03-12 at 10 15 02 PM" src="https://github.com/lenn-dev/TIL/assets/37726487/5e0aa0f0-5ea4-4181-ba11-2381b0055853"></br></br>
 
+#### 입력양식 변환기호 (중요★★)
 <img width="422" alt="Screenshot 2024-03-12 at 10 15 40 PM" src="https://github.com/lenn-dev/TIL/assets/37726487/f82c9799-c95f-422e-8b40-1676c68f5369"></br></br>
 
 <img width="581" alt="Screenshot 2024-03-12 at 10 16 04 PM" src="https://github.com/lenn-dev/TIL/assets/37726487/1eb4185c-02aa-4594-bad5-b7972c8b4e36"></br></br>
 
+#### 문자 단위의 입.출력 (중요★) - getchar(), putchar()
 <img width="423" alt="Screenshot 2024-03-12 at 10 17 25 PM" src="https://github.com/lenn-dev/TIL/assets/37726487/94344b8c-a489-4301-8593-830827e12a1c"></br></br>
+
 
 <img width="434" alt="Screenshot 2024-03-12 at 10 17 41 PM" src="https://github.com/lenn-dev/TIL/assets/37726487/4dabcc17-e92e-471b-9a7b-1b9feca61a41"></br></br>
 
+#### 문자열 단위의 입력 (중요★) - gets(), puts()
 <img width="535" alt="Screenshot 2024-03-12 at 10 18 11 PM" src="https://github.com/lenn-dev/TIL/assets/37726487/723dcb40-6006-4718-8469-6194248842c2"></br></br>
 
 <img width="483" alt="Screenshot 2024-03-12 at 10 18 30 PM" src="https://github.com/lenn-dev/TIL/assets/37726487/db797bef-1a92-4cab-909d-5cbfdddaddba"></br></br>
@@ -206,10 +213,11 @@ __조건부 컴파일 (중요★)__
 # 입출력 함수와 연산자 2
 ## 연산자
 - 연산자(operator) : 임의의 자료에 대해 각종 연산을 수행하도록 하는 기호
-  
+
+#### C 언어의 연산자 종류 (중요★)
 <img width="366" alt="Screenshot 2024-03-12 at 10 22 30 PM" src="https://github.com/lenn-dev/TIL/assets/37726487/9fddcfce-ad4e-4b12-b55b-a84ed9241f91"></br></br>
 
-### 산술 연산자
+### 산술 연산자(중요★★★)
 - 피 연산자에 대해 사칙연산을 포함한 각종 산술연산을 수행하는 연산자
 - 
 <img width="396" alt="Screenshot 2024-03-12 at 10 24 13 PM" src="https://github.com/lenn-dev/TIL/assets/37726487/fb01bd35-b87b-4ece-a793-ba3efafff2ed"></br></br>
@@ -219,7 +227,7 @@ __조건부 컴파일 (중요★)__
 <img width="498" alt="Screenshot 2024-03-12 at 10 25 58 PM" src="https://github.com/lenn-dev/TIL/assets/37726487/2393bdf7-8603-465c-8c53-e15d88626f77"></br></br>
 
 
-### 관계 연산자
+### 관계 연산자(중요★★)
 - 피 연산자에 대한 대,소 관계를 비교하는 연산자
 - 
 <img width="423" alt="Screenshot 2024-03-12 at 10 26 39 PM" src="https://github.com/lenn-dev/TIL/assets/37726487/6239f2eb-7f3c-431a-b9ad-23cc455f1dcb"></br></br>
@@ -227,14 +235,14 @@ __조건부 컴파일 (중요★)__
 <img width="457" alt="Screenshot 2024-03-12 at 10 27 54 PM" src="https://github.com/lenn-dev/TIL/assets/37726487/b3b21edf-9c53-43e5-80db-cc0c0e4f3717"></br></br>
 
 
-### 논리 연산자
+### 논리 연산자(중요★★★)
 - 피 연산자에 대해 논리 연산을 수행하는 연산자
 
 <img width="426" alt="Screenshot 2024-03-12 at 10 28 28 PM" src="https://github.com/lenn-dev/TIL/assets/37726487/1f269f1c-dcaf-4d90-92ad-cf33f3e74d89"></br></br>
 
 <img width="443" alt="Screenshot 2024-03-12 at 10 32 07 PM" src="https://github.com/lenn-dev/TIL/assets/37726487/e7b7d956-7ea6-4c5f-b8e6-0c8d101d45b2"></br></br>
 
-### 대입 연산자
+### 대입 연산자(중요★★★)
 - 연산자의 오른쪽을 왼쪽에 대입하는데 사용
   
 <img width="446" alt="Screenshot 2024-03-12 at 10 32 52 PM" src="https://github.com/lenn-dev/TIL/assets/37726487/e44f26a6-fabf-4210-8481-bda463c82f61"></br></br>
@@ -247,7 +255,7 @@ __조건부 컴파일 (중요★)__
 
 <img width="422" alt="Screenshot 2024-03-12 at 10 34 35 PM" src="https://github.com/lenn-dev/TIL/assets/37726487/f0c9b6c7-9065-49a5-9f33-c0668575f54f"></br></br>
 
-### 비트 연산자
+### 비트 연산자(중요★★★)
 - 수치에 대해 bit 단위의 연산을 수행하는 연산자
 <img width="436" alt="Screenshot 2024-03-12 at 10 35 50 PM" src="https://github.com/lenn-dev/TIL/assets/37726487/751c60a5-d747-4378-ab6f-cc697191c444"></br></br>
 
@@ -273,15 +281,15 @@ __조건부 컴파일 (중요★)__
 ## 선택 제어문
 ### 선택 제어문의 종류
 - #### if 문
-- 단순 if문
+- 단순 if문(중요★)
 
 <img width="393" alt="Screenshot 2024-03-12 at 10 48 13 PM" src="https://github.com/lenn-dev/TIL/assets/37726487/186d75d9-ef5c-4558-b02a-ae03f00d8494"></br></br>
 
-- If ~else 문
+- If ~else 문(중요★★)
 
 <img width="392" alt="Screenshot 2024-03-12 at 10 49 33 PM" src="https://github.com/lenn-dev/TIL/assets/37726487/b036fa16-7aa7-4de8-9411-593023fd32e9"></br></br>
 
-- 다중 If ~else 문
+- 다중 If ~else 문(중요★★★)
 
 <img width="440" alt="Screenshot 2024-03-12 at 10 50 49 PM" src="https://github.com/lenn-dev/TIL/assets/37726487/f1e23c1f-f908-4878-9c34-8077e17e16f7"></br></br>
 
@@ -290,7 +298,7 @@ __조건부 컴파일 (중요★)__
 <img width="419" alt="Screenshot 2024-03-12 at 10 51 56 PM" src="https://github.com/lenn-dev/TIL/assets/37726487/58b1906a-d869-4ea7-bce6-081cbce8e49b"></br></br>
 
 
-- #### switch ~ case 문
+- #### switch ~ case 문(중요★★★)
 - if else 문은 참/거짓의 값에 따른 순서가 달라지는데, switch 문은 다양한 case에 따라 달라짐
 
 <img width="487" alt="Screenshot 2024-03-12 at 10 52 55 PM" src="https://github.com/lenn-dev/TIL/assets/37726487/fff8ad70-dbaf-423b-8170-a7cb8e56fa4e"></br></br>
@@ -298,7 +306,7 @@ __조건부 컴파일 (중요★)__
 <img width="476" alt="Screenshot 2024-03-12 at 10 53 36 PM" src="https://github.com/lenn-dev/TIL/assets/37726487/26402811-d27a-415a-9dc7-64d6846c86b4"></br></br>
 
 
-- #### goto 문 - (무조건 분기)label 붙인 곳으로 무조건 옮겨주는
+- #### goto 문(중요★) - (무조건 분기)label 붙인 곳으로 무조건 옮겨주는
   
 <img width="446" alt="Screenshot 2024-03-12 at 10 54 42 PM" src="https://github.com/lenn-dev/TIL/assets/37726487/7b6d7e9b-cfb7-45cd-9f31-e48ef124b31f"></br></br>
 
@@ -306,7 +314,7 @@ __조건부 컴파일 (중요★)__
 
 ## 반복 제어문
 ### 반복 제어문의 종류
-- #### for 문
+- #### for 문 (중요★★★)
 - for 문
 
 <img width="458" alt="Screenshot 2024-03-12 at 10 58 12 PM" src="https://github.com/lenn-dev/TIL/assets/37726487/2d0c6d28-66a3-49de-a449-40049fdb069b"></br></br>
@@ -315,7 +323,7 @@ __조건부 컴파일 (중요★)__
 
 <img width="422" alt="Screenshot 2024-03-12 at 10 58 44 PM" src="https://github.com/lenn-dev/TIL/assets/37726487/c0a55cf4-b5dc-4199-8fd6-677e7ec11994"></br></br>
 
-- #### while 문
+- #### while 문(중요★★★)
 - while 문
 
 <img width="449" alt="Screenshot 2024-03-12 at 10 59 24 PM" src="https://github.com/lenn-dev/TIL/assets/37726487/52405ccb-8f5b-4dd7-a8bb-d741b0533dd1"></br></br>
@@ -324,13 +332,13 @@ __조건부 컴파일 (중요★)__
 
 <img width="461" alt="Screenshot 2024-03-12 at 10 59 36 PM" src="https://github.com/lenn-dev/TIL/assets/37726487/1f77f69b-6f93-4bf0-8d6d-b062d7c993d5"></br></br>
 
-- #### do ~ while 문
+- #### do ~ while 문(중요★★★)
 
 <img width="408" alt="Screenshot 2024-03-12 at 11 01 31 PM" src="https://github.com/lenn-dev/TIL/assets/37726487/c97a837c-3ee4-4cf5-82c5-1f3ad1556781"></br></br>
 
 <img width="461" alt="Screenshot 2024-03-12 at 11 02 05 PM" src="https://github.com/lenn-dev/TIL/assets/37726487/f9fb34fe-fade-4e36-9114-35651cce4b4c"></br></br>
 
-## 기타 제어문
+## 기타 제어문(중요★★)
 - #### break 문
 - break 문은 반복 명령의 실행 도중에 강제적으로 반복문을 빠져 나오는데 사용
 - for 루프, while 루프, do~while 루프, switch 블록 등을 강제로 종료시키고자 할 때 사용
@@ -347,7 +355,7 @@ __조건부 컴파일 (중요★)__
 
   
 # 함수와 기억 클래스 1
-## 함수의 개념
+## 함수의 개념(중요★)
 - 함수
   - 함수란 특정한 작업(기능)을 수행하도록 설계된 독립적인 프로그램
   - 이러한 함수들이 정해진 순서에 따라 실행됨으로써 프로그램의 기능을 수행
@@ -371,7 +379,7 @@ __조건부 컴파일 (중요★)__
 
 
 ## 표준 함수
-
+(중요★★)
 - C언어에서의 함수
   - 표준함수 : C언어 자체에서 제공하는 함수
   - 사용자 정의함수 : 사용자가 정의하여 사용하는 함수
@@ -394,6 +402,7 @@ __조건부 컴파일 (중요★)__
 - 사용자 정의 함수
   - 사용자가 단위 프로그램을 함수로 정의하여 사용
 
+## 함수의 정의 구조 (중요★★★)
 <img width="390" alt="Screenshot 2024-03-12 at 11 16 23 PM" src="https://github.com/lenn-dev/TIL/assets/37726487/c6e06992-9209-41de-851d-a517b3240d15"></br></br>
 
 <img width="463" alt="Screenshot 2024-03-12 at 11 18 47 PM" src="https://github.com/lenn-dev/TIL/assets/37726487/b10f1cbc-80ab-47dd-9782-1c43cb9d0724"></br></br>
