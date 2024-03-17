@@ -46,7 +46,7 @@
 ### 프로그래밍
 대부분의 CS 재학생들은 컴퓨터 프로그래밍에 대한 "입문"으로 시작합니다. 진짜 좋은 코스들은 초심자뿐만 아니라 처음 코딩을 배울 때 진짜 중요한 컴셉과 프로그래밍 모델을 놓친 사람들에게도 큰 도움이 됩니다. 
    
-이 주제에 대한 우리의 스탠다드 추천은 바로 고전 *Structure and Interpretation of Computer Programs(번역본: 프로그램의 구조와 해석)* 입니다.(이하 SICP) [책](https://mitpress.mit.edu/sites/default/files/sicp/full-text/book/book.html)과 [MIT 비디오 강의]([http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-001-structure-and-interpretation-of-computer-programs-spring-2005/video-lectures/](https://ocw.mit.edu/courses/6-001-structure-and-interpretation-of-computer-programs-spring-2005/video_galleries/video-lectures/)) 모두 인터넷에서 무료로 찾아볼 수 있습니다. 이 강의들도 매우 좋지만, 사실 우리가 대신 추천하고 싶은 강의는 [Brian Harvey의 SICP 강의](https://archive.org/details/ucberkeley-webcast-PL3E89002AA9B9879E?sort=titleSorter)(버클리 61A 코스용)입니다. MIT 강의들보다 좀 더 신입생에 맞춰 구성되어 있거든요.   
+이 주제에 대한 우리의 스탠다드 추천은 바로 고전 *Structure and Interpretation of Computer Programs(번역본: 프로그램의 구조와 해석)* 입니다.(이하 SICP) [책](https://mitpress.mit.edu/sites/default/files/sicp/full-text/book/book.html)과 [MIT 비디오 강의](https://ocw.mit.edu/courses/6-001-structure-and-interpretation-of-computer-programs-spring-2005/video_galleries/video-lectures/) 모두 인터넷에서 무료로 찾아볼 수 있습니다. 이 강의들도 매우 좋지만, 사실 우리가 대신 추천하고 싶은 강의는 [Brian Harvey의 SICP 강의](https://archive.org/details/ucberkeley-webcast-PL3E89002AA9B9879E?sort=titleSorter)(버클리 61A 코스용)입니다. MIT 강의들보다 좀 더 신입생에 맞춰 구성되어 있거든요.   
    
 우리는 최소 SICP의 첫 세 챕터를 훑은 다음에 연습문제를 풀어보기를 추천합니다. 심화학습을 위해, [Exercism](http://exercism.io/)같은 데 있는 작은 프로그래밍 문제 세트를 풀어보세요.    
     
